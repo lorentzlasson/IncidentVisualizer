@@ -24,6 +24,7 @@ func main() {
 
 	go h.run()
 	setupRoutes()
+	initMqtt()
 
 	log.Printf("Starting app on %+v:%+v\n", host, port)
 	http.ListenAndServe(host+":"+port, nil)
