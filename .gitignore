@@ -3,7 +3,6 @@
 *.a
 *.so
 
-.DS_Store
 
 # Folders
 _obj
@@ -24,3 +23,6 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+Godeps/_workspace
+.DS_Store
