@@ -19,7 +19,7 @@ Run `go run *.go`
 # Deploy to Bluemix
 Install [cf cli](https://github.com/cloudfoundry/cli#downloads).
 
-Modify the `host` attribyte in `manifest.yml (needs to be unique).
+Modify the `host` attribute in `manifest.yml (needs to be unique).
 
 Run `cf push` from the root directory.
 
