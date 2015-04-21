@@ -2,7 +2,9 @@
 Visualizes incidents sent via IBM Internet of Things Foundation
 
 # Getting started
-Add iotfcreds.json to in the root dir. It should have the following format
+Install go
+
+Add iotfcreds.json to in the root dir. It should have the following format:
 
 ```json
 {
@@ -11,3 +13,5 @@ Add iotfcreds.json to in the root dir. It should have the following format
 	"Password": "<auth-token>"
 }
 ```
+
+Run `go run *.go`
