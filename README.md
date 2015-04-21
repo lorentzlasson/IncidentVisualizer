@@ -1,6 +1,8 @@
 # About
 Visualizes incidents sent via IBM Internet of Things Foundation
 
+Currently running on http://incident-visualizer.mybluemix.net/
+
 # Getting started
 Install go.
 
