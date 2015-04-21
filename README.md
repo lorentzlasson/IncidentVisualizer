@@ -2,7 +2,7 @@
 Visualizes incidents sent via IBM Internet of Things Foundation
 
 # Getting started
-Install go
+Install go.
 
 Add iotfcreds.json to in the root dir. It should have the following format:
 
@@ -15,3 +15,13 @@ Add iotfcreds.json to in the root dir. It should have the following format:
 ```
 
 Run `go run *.go`
+
+# Deploy to Bluemix
+Install [cf cli](https://github.com/cloudfoundry/cli#downloads).
+
+Modify the `host` attribyte in `manifest.yml (needs to be unique).
+
+Run `cf push` from the root directory.
+
+
+
